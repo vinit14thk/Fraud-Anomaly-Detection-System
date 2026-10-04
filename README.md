@@ -280,11 +280,15 @@ Visualizations
 
 
 
-The project generates several visualizations:
+Visualizations
 
 
 
-Normal vs Fraudulent Transactions
+The system generates visualizations to help analyze transaction behavior and model performance.
+
+
+
+\### Normal vs Fraudulent Transactions
 
 
 
@@ -292,7 +296,11 @@ Shows the distribution of normal and fraudulent transactions in the synthetic da
 
 
 
-Transaction Amount Distribution
+!\[Normal vs Fraudulent Transactions](fraud\_vs\_normal.png)
+
+
+
+\### Transaction Amount Distribution
 
 
 
@@ -300,55 +308,43 @@ Compares transaction amount patterns between normal and fraudulent transactions.
 
 
 
-Fraudulent Transactions by Hour
+!\[Transaction Amount Distribution](transaction\_amount\_distribution.png)
 
 
 
-Shows how the synthetic fraudulent transactions are distributed throughout the day.
+\### Fraudulent Transactions by Hour
 
 
 
-Confusion Matrix
+Shows the distribution of fraudulent transactions across different hours of the day.
 
 
 
-Visualizes correct and incorrect fraud predictions.
+!\[Fraudulent Transactions by Hour](fraud\_by\_hour.png)
 
 
 
-Risk Score Distribution
+\### Confusion Matrix
 
 
 
-Shows the distribution of relative transaction risk scores across the dataset.
+Shows the model's correct and incorrect predictions on the evaluated dataset.
 
 
 
-Output
+!\[Confusion Matrix](confusion\_matrix.png)
 
 
 
-The system generates:
+\### Risk Score Distribution
 
 
 
-fraud\_transactions.csv
-
-detected\_fraud\_transactions.csv
-
-confusion\_matrix.png
-
-fraud\_vs\_normal.png
-
-transaction\_amount\_distribution.png
-
-fraud\_by\_hour.png
-
-risk\_score\_distribution.png
+Shows the distribution of relative anomaly risk scores across transactions.
 
 
 
-"detected\_fraud\_transactions.csv" contains transactions flagged by the anomaly detection system, along with their anomaly scores and risk scores.
+!\[Risk Score Distribution](risk\_score\_distribution.png)
 
 
 
