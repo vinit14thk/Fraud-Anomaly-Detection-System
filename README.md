@@ -1,5 +1,42 @@
 Fraud \& Anomaly Detection System
 
+## Visualizations
+
+The system generates visualizations to help analyze transaction behavior and model performance.
+
+### Normal vs Fraudulent Transactions
+
+Shows the distribution of normal and fraudulent transactions in the synthetic dataset.
+
+![Normal vs Fraudulent Transactions](fraud_vs_normal.png)
+
+### Transaction Amount Distribution
+
+Compares transaction amount patterns between normal and fraudulent transactions.
+
+![Transaction Amount Distribution](transaction_amount_distribution.png)
+
+### Fraudulent Transactions by Hour
+
+Shows the distribution of fraudulent transactions across different hours of the day.
+
+![Fraudulent Transactions by Hour](fraud_by_hour.png)
+
+### Confusion Matrix
+
+Shows the model's correct and incorrect predictions on the evaluated dataset.
+
+![Confusion Matrix](confusion_matrix.png)
+
+### Risk Score Distribution
+
+Shows the distribution of relative anomaly risk scores across transactions.
+
+![Risk Score Distribution](risk_score_distribution.png)
+
+
+Fraud \& Anomaly Detection System
+
 
 
 A machine learning-based transaction monitoring system that identifies potentially fraudulent transactions using anomaly detection with Isolation Forest.
